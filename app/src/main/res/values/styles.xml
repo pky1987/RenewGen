@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.PS" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorWhite</item> <!-- Optional -->
+    </style>
+    <style name="LightTheme" parent="Theme.AppCompat.Light">
+        <item name="android:windowBackground">@color/colorWhite</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+    <style name="DarkTheme" parent="Theme.AppCompat">
+        <item name="android:windowBackground">@color/colorText</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+</resources>

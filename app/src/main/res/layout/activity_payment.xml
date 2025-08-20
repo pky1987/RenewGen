@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient"
+    android:padding="16dp"
+    tools:context=".PaymentActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/drawer"
+        android:elevation="4dp">
+        <TextView
+            android:id="@+id/action_ps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment"
+            android:textSize="25sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <Spinner
+        android:id="@+id/paymentMethodSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/toolbar"
+        android:entries="@array/payment_methods" />
+
+    <!-- UPI Payment section -->
+    <LinearLayout
+        android:id="@+id/upiPaymentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/paymentMethodSpinner"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Payment"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Hidden UPI ID TextView -->
+        <TextView
+            android:id="@+id/upiIdTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9594772540@yapl"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/upiIdEditText"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:hint="Enter UPI ID"
+            android:inputType="text"
+            android:enabled="false"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/upiAmountEditText"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter Amount"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/upiPayButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pay"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <!-- Card Payment section -->
+    <LinearLayout
+        android:id="@+id/cardPaymentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/cardNumberEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Card Number"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/cardExpiryEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Expiry Date (MM/YY)"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/cardCvvEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CVV"
+            android:inputType="numberPassword" />
+
+        <EditText
+            android:id="@+id/cardAmountEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Amount"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/cardPayButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pay"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <!-- QR Code section -->
+    <LinearLayout
+        android:id="@+id/qrPaymentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/qrCodeImageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/prakashy"
+            android:contentDescription="QR Code"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+
+</RelativeLayout>

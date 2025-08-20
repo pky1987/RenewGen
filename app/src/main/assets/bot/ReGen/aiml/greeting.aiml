@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            <random>
+                <li>Hi! I'm your renewable energy assistant. Ask me about solar, wind, or hydropower! 🌞💨💧</li>
+                <li>Hello! Let's discuss clean energy solutions. What would you like to know?</li>
+                <li>Hi there! Ready to explore renewable energy technologies?</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TEST</pattern>
+        <template>System verification successful! Ready for energy questions.</template>
+    </category>
+</aiml>

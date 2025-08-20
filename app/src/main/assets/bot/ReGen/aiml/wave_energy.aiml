@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+    <category>
+        <pattern>WAVE ENERGY DETAILS</pattern>
+        <template>
+            <![CDATA[
+            🌊 *Advanced Wave Energy Analysis* 🌊
+
+            🌊 **Core Technology**:
+            - Harnesses kinetic/potential energy from ocean surface waves
+            - Primary conversion methods:
+              1. Oscillating Water Columns (OWC)
+              2. Point Absorbers
+              3. Attenuators (e.g., Pelamis)
+              4. Overtopping Devices
+              5. Oscillating Wave Surge Converters
+
+            📈 **Key Metrics (2023)**:
+            - Global installed capacity: ~25 MW (commercial)
+            - Capacity factor: 25-40% (site-dependent)
+            - Levelized Cost: $0.15-$0.30/kWh (prototype to commercial)
+            - Power density: 20-70 kW/m (wave front)
+
+            🏗 **System Components**:
+            1. Primary Energy Converter (PEC)
+            2. Power Take-Off (PTO) systems
+            3. Mooring & Anchoring systems
+            4. Submarine transmission cables
+            5. Onshore substation integration
+
+            🌍 **Environmental Profile**:
+            - Minimal GHG emissions during operation
+            - Potential impacts on marine ecosystems
+            - Visual impact considerations
+            - Noise mitigation strategies for marine life
+
+            🌐 **Global Hotspots**:
+            - High energy regions (>70 kW/m):
+              • Scotland's Orkney Islands
+              • Portugal's Aguçadoura
+              • Australia's Southern Coast
+              • US Pacific Northwest
+
+            💰 **Financial Landscape**:
+            - CAPEX: $3-7 million/MW (floating devices)
+            - OPEX: $150-300/kW/year
+            - EU Horizon funding initiatives
+            - Marine Energy Certificates (MECs)
+
+            🚀 **Innovation Frontiers**:
+            - Hybrid wind-wave systems
+            - AI-driven predictive control
+            - Triboelectric nanogenerators
+            - Multi-resonance adaptive systems
+            - Submerged pressure differential tech
+
+            ⚠️ **Technical Challenges**:
+            - Extreme weather survivability
+            - Biofouling prevention
+            - Grid synchronization
+            - Corrosion resistance (ISO 12944 CX)
+            - Maintenance accessibility
+
+            For deeper insights, ask about:
+            [PTO Mechanisms] [Environmental Impact] [Global Projects]
+            ]]>
+        </template>
+    </category>
+
+    <!-- Supporting Sub-Categories -->
+    <category>
+        <pattern>PTO MECHANISMS</pattern>
+        <template>
+            ⚙️ **Power Take-Off Systems**:
+            - Hydraulic systems (80% efficiency)
+            - Direct-drive linear generators
+            - Pneumatic air turbines
+            - Hydraulic motor/generator sets
+            - Dielectric elastomer generators
+
+            Key parameters:
+            • Conversion efficiency (60-85%)
+            • Force capability (50-500 kN)
+            • Dynamic response time (<100ms)
+        </template>
+    </category>
+
+    <category>
+        <pattern>ENVIRONMENTAL IMPACT</pattern>
+        <template>
+            🌿 **Ecological Considerations**:
+            - Sediment transport alterations
+            - Electromagnetic field effects
+            - Artificial reef effects
+            - Marine mammal interactions
+            - Cumulative impact assessments
+
+            Mitigation strategies:
+            • Seasonal operation restrictions
+            • Bio-friendly anti-fouling coatings
+            • Marine spatial planning
+        </template>
+    </category>
+
+    <category>
+        <pattern>GLOBAL PROJECTS</pattern>
+        <template>
+            🌍 **Notable Installations**:
+            1. EMEC (UK): 2.4 MW grid-connected test site
+            2. WaveHub (UK): 30 MW capacity site
+            3. Mutriku OWC (Spain): 296 kW operational plant
+            4. CETO (Australia): 1 MW pilot array
+            5. Azura (USA): 20 kW point absorber
+
+            Emerging markets: Chile, South Africa, South Korea
+        </template>
+    </category>
+</aiml>

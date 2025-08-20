@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary colors -->
+    <color name="colorPrimary">#7DFCE8</color> <!-- Purple -->
+    <color name="colorPrimaryDark">#7DFCE8</color> <!-- Dark Purple -->
+    <color name="colorAccent">#03DAC5</color> <!-- Teal -->
+    <color name="primary_light">#BBDEFB</color> <!-- Light Blue -->
+    <color name="colorPrakash">#333333</color>
+    <color name="light_gold">#FFD700</color>
+    <color name="colorGray">#BDBDBD</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="teal_200">#FF03DAC5</color>
+
+    <!-- Additional colors -->
+    <color name="colorWhite">#FFFFFF</color> <!-- White -->
+    <color name="colorText">#000000</color> <!-- Black -->
+    <color name="colorError">#B00020</color> <!-- Red for errors -->
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- App specific colors -->
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_darker">#0D47A1</color>
+    <color name="accent">#FF4081</color>
+    <color name="accent_dark">#F50057</color>
+    <color name="accent_darker">#C51162</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="dark_gray">#424242</color>
+    <color name="light_gray">#BDBDBD</color>
+</resources>

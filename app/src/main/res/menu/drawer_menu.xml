@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home"
+        app:iconTint="@color/colorWhite"
+        app:titleTextColor="@color/colorWhite"/>
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/profileman"
+        android:title="Show Profile"
+        app:iconTint="@color/colorWhite"
+        app:titleTextColor="@color/colorWhite"/>
+    <item
+        android:id="@+id/payment"
+        android:icon="@drawable/payment"
+        android:title="Payment"
+        app:iconTint="@color/colorWhite"
+        app:titleTextColor="@color/colorWhite"/>
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/setting"
+        android:title="Settings"
+        app:iconTint="@color/colorWhite"
+        app:titleTextColor="@color/colorWhite"/>
+    <item
+        android:id="@+id/ai"
+        android:icon="@drawable/ai"
+        android:title="Gen AI"
+        app:iconTint="@color/colorWhite"
+        app:titleTextColor="@color/colorWhite"/>
+    <item
+        android:id="@+id/th"
+        android:icon="@drawable/th"
+        android:title="Feedback"
+        app:iconTint="@color/colorWhite"
+        app:titleTextColor="@color/colorWhite"/>
+    <item
+        android:id="@+id/about_us"
+        android:icon="@drawable/about_us"
+        android:title="About Us"
+        app:iconTint="@color/colorWhite"
+        app:titleTextColor="@color/colorWhite"/>
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout"
+        app:iconTint="@color/colorWhite"
+        app:titleTextColor="@color/colorWhite"/>
+</menu>

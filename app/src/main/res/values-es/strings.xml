@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Language Selection -->
+    <string name="select_language">Seleccionar Idioma</string>
+    <string name="english">Inglés</string>
+    <string name="hindi">Hindi</string>
+    <string name="spanish">Español</string>
+    <string name="french">Francés</string>
+    <string name="apply_language">Aplicar Idioma</string>
+</resources> 

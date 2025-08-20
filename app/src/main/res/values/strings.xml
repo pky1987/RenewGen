@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">RenewGen</string>
+    <string name="action_settings">Settings</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="latitude_format">Lat: %.6f</string>
+    <string name="longitude_format">Lon: %.6f</string>
+    <string-array name="payment_methods">
+        <item>UPI</item>
+        <item>Card</item>
+        <item>QR Code</item>
+    </string-array>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="renewable_energy_guide" formatted="false">The Global Renewable Energy Revolution: Powering a Sustainable Future
+
+Introduction to Renewable Energy
+In the face of climate change and environmental degradation, renewable energy stands as humanity\'s greatest hope for a sustainable future. This comprehensive guide explores the technologies, policies, and innovations driving the global transition to clean energy systems.
+
+The Imperative for Renewable Energy Transition
+• Climate Change Mitigation: Fossil fuels account for over 75% of global greenhouse gas emissions
+• Energy Security: Reducing dependence on finite fossil fuel reserves
+• Economic Opportunities: Renewable sector created 12.7 million jobs worldwide in 2022
+• Public Health: Reducing air pollution-related deaths (estimated 7 million annually)
+• Sustainable Development: Aligning with UN Sustainable Development Goals (SDG 7)
+
+Global Energy Transition Progress
+Current Statistics (2023):
+- 30% of global electricity from renewables
+- Solar PV capacity increased 22x since 2010
+- 90% of new power capacity in 2022 was renewable
+- Cost reductions:
+    • Solar PV: 82% decrease since 2010
+    • Onshore wind: 39% decrease since 2010
+    • Lithium-ion batteries: 97% decrease since 1991
+
+Types of Renewable Energy Technologies
+
+1. Solar Energy
+• Photovoltaic (PV) Systems:
+    - Monocrystalline silicon (22-24% efficiency)
+    - Polycrystalline silicon (15-17% efficiency)
+    - Thin-film technologies (10-13% efficiency)
+• Concentrated Solar Power (CSP):
+    - Parabolic trough systems
+    - Solar power towers
+    - Dish Stirling systems
+• Applications of Solar Energy:
+    - Residential solar installations
+    - Utility-scale solar farms
+    - Off-grid solar solutions
+• Challenges:
+    - Intermittency and energy storage
+    - Land use and environmental impact
+    - Initial investment costs
+
+2. Wind Energy
+• Onshore Wind Farms:
+    - Horizontal-axis wind turbines (HAWT)
+    - Vertical-axis wind turbines (VAWT)
+• Offshore Wind Energy:
+    - Fixed-bottom and floating turbines
+    - Advantages of offshore wind (higher capacity factors)
+• Applications of Wind Energy:
+    - Community wind projects
+    - Large-scale wind farms
+• Challenges:
+    - Noise and aesthetic concerns
+    - Impact on wildlife (birds and bats)
+    - Grid integration issues
+
+3. Hydropower
+• Types of Hydropower:
+    - Run-of-river systems
+    - Reservoir-based systems
+    - Pumped storage hydropower
+• Benefits of Hydropower:
+    - Reliable and consistent energy source
+    - Water management and flood control
+    - Recreational opportunities
+• Challenges:
+    - Environmental impact on aquatic ecosystems
+    - Displacement of communities
+    - Climate change effects on water availability
+
+4. Biomass Energy
+• Sources of Biomass:
+    - Agricultural residues
+    - Wood and forestry products
+    - Municipal solid waste
+• Conversion Technologies:
+    - Direct combustion
+    - Gasification and pyrolysis
+    - Anaerobic digestion
+• Benefits of Biomass:
+    - Waste reduction and recycling
+    - Carbon-neutral energy source
+    - Rural economic development
+• Challenges:
+    - Competition with food production
+    - Land use changes
+    - Emissions from combustion
+
+5. Geothermal Energy
+• Types of Geothermal Systems:
+    - Enhanced geothermal systems (EGS)
+    - Ground-source heat pumps
+    - Hydrothermal resources
+• Applications of Geothermal Energy:
+    - Electricity generation
+    - Direct heating applications
+    - District heating systems
+• Benefits of Geothermal:
+    - Low emissions and small land footprint
+    - Reliable baseload power
+    - Long-term sustainability
+• Challenges:
+    - Location-specific resource availability
+    - High upfront capital costs
+    - Induced seismicity concerns
+
+Technological Innovations in Renewable Energy
+• Energy Storage Solutions:
+    - Advancements in battery technology (lithium-ion, solid-state)
+    - Pumped hydro storage and compressed air energy storage
+    - Emerging technologies (flow batteries, thermal storage)
+• Smart Grids and Energy Management:
+    - Integration of distributed energy resources (DERs)
+    - Demand response programs
+    - Real-time monitoring and control systems
+• Artificial Intelligence in Energy:
+    - Predictive maintenance for renewable assets
+    - Optimization of energy consumption
+    - Enhancing grid reliability and resilience
+
+Policy and Economic Aspects of Renewable Energy
+• Government Incentives:
+    - Feed-in tariffs and power purchase agreements (PPAs)
+    - Tax credits and rebates for renewable installations
+    - Renewable portfolio standards (RPS)
+• Investment Trends:
+    - Global investment in renewables reached $500 billion in 2022
+    - Green bonds and sustainable finance
+    - Corporate renewable energy procurement
+• Job Creation and Economic Growth:
+    - Renewable energy sector employment growth
+    - Local economic benefits from renewable projects
+    - Skills training and workforce development
+
+Community Engagement and Education
+• Raising Awareness:
+    - Educational programs on renewable energy benefits
+    - Community workshops and events
+    - Collaborations with local organizations
+• Involving Local Communities:
+    - Community solar projects
+    - Participatory decision-making in energy planning
+    - Supporting local renewable energy initiatives
+
+Future Outlook for Renewable Energy
+• Projections for 2030:
+    - Renewables expected to provide 50% of global electricity
+    - Continued cost reductions and technological advancements
+    - Increased electrification of transportation and heating
+• The Role of Innovation:
+    - Breakthroughs in energy storage and grid technology
+    - Development of hydrogen as a clean energy carrier
+    - Integration of renewable energy with smart cities
+
+Conclusion: Join the Renewable Energy Movement
+The transition to renewable energy is not just a necessity; it is an opportunity for a sustainable future. By embracing clean energy technologies, supporting policies, and engaging with our communities, we can create a world where energy is abundant, affordable, and environmentally friendly. Together, let\'s take action towards a greener planet and a brighter future for generations to come. Join us in the renewable energy revolution today!</string>
+
+    <!-- Solar Energy Overview -->
+    <string name="solar_overview_title">Solar Energy: Harnessing the Power of the Sun</string>
+    <string name="solar_overview_description">Solar energy is a renewable energy source that converts sunlight into electrical or thermal energy. It\'s one of the cleanest and most abundant renewable energy sources available, with the potential to meet global electricity demand many times over.</string>
+    <string name="key_facts">Key Facts</string>
+
+    <string name="fact1_title">Global Solar Capacity</string>
+    <string name="fact1_description">Solar PV capacity has grown exponentially, reaching over 713 GW globally in 2020. The technology continues to become more efficient and cost-effective each year.</string>
+
+    <string name="fact2_title">Environmental Impact</string>
+    <string name="fact2_description">Solar energy produces no greenhouse gas emissions during operation and has minimal environmental impact compared to fossil fuels. A typical solar installation can offset 100,000 lbs of CO2 over its lifetime.</string>
+
+    <string name="fact3_title">Economic Benefits</string>
+    <string name="fact3_description">The cost of solar panels has dropped by more than 80% since 2010, making it increasingly competitive with traditional energy sources. Solar installations can provide significant long-term savings on electricity bills.</string>
+
+    <!-- Solar Efficiency -->
+    <string name="solar_efficiency_title">Solar Efficiency</string>
+    <string name="solar_efficiency_description">Understanding the factors that affect solar panel efficiency and system performance.</string>
+
+    <string name="panel_efficiency_title">Panel Efficiency</string>
+    <string name="panel_efficiency_description" formatted="false">The ability of solar panels to convert sunlight into electricity, typically ranging from 15% to 22% for commercial panels.</string>
+
+    <string name="conversion_rate_title">Conversion Rate</string>
+    <string name="conversion_rate_description">The rate at which solar cells convert photons into electrical current, affected by material quality and design.</string>
+
+    <string name="temperature_impact_title">Temperature Impact</string>
+    <string name="temperature_impact_description">How temperature affects solar panel performance, with efficiency typically decreasing as temperature rises.</string>
+
+    <string name="maintenance_title">Maintenance</string>
+    <string name="maintenance_description">Regular cleaning and maintenance practices to ensure optimal solar panel performance over time.</string>
+
+    <!-- Geothermal Energy -->
+    <string name="geothermal_energy">Geothermal Energy</string>
+
+    <!-- Geothermal Technology -->
+    <string name="geothermal_technology_title">Geothermal Technology</string>
+    <string name="geothermal_technology_description">Explore different types of geothermal energy technologies and their applications.</string>
+
+    <!-- Geothermal Technology Cards -->
+    <string name="geothermal_egs_title">Enhanced Geothermal Systems (EGS)</string>
+    <string name="geothermal_egs_description">Advanced technology that creates artificial geothermal reservoirs in hot dry rock formations.</string>
+
+    <string name="geothermal_heat_pump_title">Geothermal Heat Pumps</string>
+    <string name="geothermal_heat_pump_description">Efficient heating and cooling systems that use the Earth\'s constant temperature.</string>
+
+    <string name="geothermal_hydrothermal_title">Hydrothermal Systems</string>
+    <string name="geothermal_hydrothermal_description">Traditional geothermal power plants using naturally occurring hot water and steam.</string>
+
+    <string name="geothermal_hybrid_title">Hybrid Geothermal Systems</string>
+    <string name="geothermal_hybrid_description">Combined geothermal systems that integrate multiple energy sources for optimal efficiency.</string>
+
+    <!-- Geothermal Production -->
+    <string name="geothermal_production_title">Geothermal Production</string>
+    <string name="geothermal_production_description">Understanding geothermal energy generation and output metrics.</string>
+    <string name="geothermal_annual_production_title">Annual Production</string>
+    <string name="geothermal_annual_production_description">Total geothermal energy production per year.</string>
+    <string name="geothermal_capacity_factor_title">Capacity Factor</string>
+    <string name="geothermal_capacity_factor_description">Actual energy output compared to maximum possible output.</string>
+    <string name="geothermal_power_density_title">Power Density</string>
+    <string name="geothermal_power_density_description">Energy output per unit area of geothermal field.</string>
+    <string name="geothermal_grid_integration_title">Grid Integration</string>
+    <string name="geothermal_grid_integration_description">How geothermal energy connects to power grids.</string>
+
+    <!-- Geothermal Efficiency -->
+    <string name="geothermal_efficiency_title">Geothermal Efficiency</string>
+    <string name="geothermal_efficiency_description">Factors affecting geothermal energy system efficiency.</string>
+    <string name="geothermal_plant_efficiency_title">Plant Efficiency</string>
+    <string name="geothermal_plant_efficiency_description">How efficiently plants convert heat to electricity.</string>
+    <string name="geothermal_temperature_title">Temperature Impact</string>
+    <string name="geothermal_temperature_description">How resource temperature affects energy production.</string>
+    <string name="geothermal_well_placement_title">Well Placement</string>
+    <string name="geothermal_well_placement_description">Optimal positioning for maximum efficiency.</string>
+    <string name="geothermal_maintenance_title">Maintenance</string>
+    <string name="geothermal_maintenance_description">Regular maintenance for optimal performance.</string>
+
+    <!-- Geothermal Impact -->
+    <string name="geothermal_impact_title">Geothermal Impact</string>
+    <string name="geothermal_impact_description">The broader effects of geothermal energy development.</string>
+    <string name="geothermal_environmental_impact_title">Environmental Impact</string>
+    <string name="geothermal_environmental_impact_description">Effects on local ecosystems and geology.</string>
+    <string name="geothermal_economic_impact_title">Economic Impact</string>
+    <string name="geothermal_economic_impact_description">Job creation and economic benefits.</string>
+    <string name="geothermal_social_impact_title">Social Impact</string>
+    <string name="geothermal_social_impact_description">Effects on local communities.</string>
+    <string name="geothermal_future_impact_title">Future Impact</string>
+    <string name="geothermal_future_impact_description">Projected long-term effects and benefits.</string>
+
+    <!-- Biomass Energy -->
+    <string name="biomass_energy">Biomass Energy</string>
+    <string name="overview">Overview</string>
+    <string name="technology">Technology</string>
+    <string name="statistics">Statistics</string>
+    <string name="production">Production</string>
+    <string name="efficiency">Efficiency</string>
+    <string name="impact">Impact</string>
+
+    <!-- Biomass Technology -->
+    <string name="biomass_technology_title">Biomass Technology</string>
+    <string name="biomass_technology_description">Explore different types of biomass conversion technologies and their applications.</string>
+    <string name="biomass_direct_combustion_title">Direct Combustion</string>
+    <string name="biomass_direct_combustion_description">Traditional method of burning biomass for heat and power generation.</string>
+    <string name="biomass_gasification_title">Gasification</string>
+    <string name="biomass_gasification_description">Converting biomass into combustible gases through thermal processes.</string>
+    <string name="biomass_anaerobic_title">Anaerobic Digestion</string>
+    <string name="biomass_anaerobic_description">Biological conversion of biomass into biogas.</string>
+    <string name="biomass_hybrid_title">Hybrid Systems</string>
+    <string name="biomass_hybrid_description">Combined biomass and other renewable energy solutions.</string>
+
+    <!-- Biomass Production -->
+    <string name="biomass_production_title">Biomass Production</string>
+    <string name="biomass_production_description">Understanding biomass energy generation and output metrics.</string>
+    <string name="production_metrics">Production Metrics</string>
+
+    <string name="biomass_annual_production_title">Annual Production</string>
+    <string name="biomass_annual_production_description">Total biomass energy production per year.</string>
+
+    <string name="biomass_capacity_factor_title">Capacity Factor</string>
+    <string name="biomass_capacity_factor_description">Actual energy output compared to maximum possible output.</string>
+
+    <string name="biomass_power_density_title">Power Density</string>
+    <string name="biomass_power_density_description">Energy output per unit of biomass input.</string>
+
+    <string name="biomass_grid_integration_title">Grid Integration</string>
+    <string name="biomass_grid_integration_description">How biomass energy connects to power grids.</string>
+
+    <!-- Biomass Efficiency -->
+    <string name="biomass_efficiency_title">Biomass Efficiency</string>
+    <string name="biomass_efficiency_description">Factors affecting biomass energy system efficiency.</string>
+    <string name="biomass_conversion_efficiency_title">Conversion Efficiency</string>
+    <string name="biomass_conversion_efficiency_description">How efficiently biomass is converted to energy.</string>
+    <string name="biomass_feedstock_quality_title">Feedstock Quality</string>
+    <string name="biomass_feedstock_quality_description">Impact of biomass quality on efficiency.</string>
+    <string name="biomass_system_optimization_title">System Optimization</string>
+    <string name="biomass_system_optimization_description">Optimizing processes for maximum efficiency.</string>
+    <string name="biomass_maintenance_title">Maintenance</string>
+    <string name="biomass_maintenance_description">Regular maintenance for optimal performance.</string>
+
+    <!-- Biomass Impact -->
+    <string name="biomass_impact_title">Biomass Impact</string>
+    <string name="biomass_impact_description">The broader effects of biomass energy development.</string>
+    <string name="biomass_environmental_impact_title">Environmental Impact</string>
+    <string name="biomass_environmental_impact_description">Effects on environment and carbon footprint.</string>
+    <string name="biomass_economic_impact_title">Economic Impact</string>
+    <string name="biomass_economic_impact_description">Job creation and economic benefits.</string>
+    <string name="biomass_social_impact_title">Social Impact</string>
+    <string name="biomass_social_impact_description">Effects on communities and society.</string>
+    <string name="biomass_future_impact_title">Future Impact</string>
+    <string name="biomass_future_impact_description">Projected long-term effects and benefits.</string>
+
+    <!-- Hydro Energy -->
+    <string name="hydro_energy">Hydro Energy</string>
+
+    <!-- Hydro Technology -->
+    <string name="hydro_technology_title">Hydro Technology</string>
+    <string name="hydro_technology_description">Explore different types of hydropower systems and their applications.</string>
+    <string name="hydro_run_of_river_title">Run-of-River Systems</string>
+    <string name="hydro_run_of_river_description">Systems that generate power using the natural flow of rivers.</string>
+    <string name="hydro_reservoir_title">Reservoir Systems</string>
+    <string name="hydro_reservoir_description">Large-scale systems with artificial reservoirs for water storage.</string>
+    <string name="hydro_pumped_storage_title">Pumped Storage</string>
+    <string name="hydro_pumped_storage_description">Systems that store energy by pumping water to higher elevations.</string>
+
+    <!-- Hydro Production -->
+    <string name="hydro_production_title">Hydro Production</string>
+    <string name="hydro_production_description">Understanding hydropower generation and output metrics.</string>
+    <string name="hydro_annual_production_title">Annual Production</string>
+    <string name="hydro_annual_production_description">Total hydropower energy production per year.</string>
+    <string name="hydro_capacity_factor_title">Capacity Factor</string>
+    <string name="hydro_capacity_factor_description">Actual energy output compared to maximum possible output.</string>
+    <string name="hydro_power_density_title">Power Density</string>
+    <string name="hydro_power_density_description">Energy output per unit area of hydropower facility.</string>
+    <string name="hydro_grid_integration_title">Grid Integration</string>
+    <string name="hydro_grid_integration_description">How hydropower systems connect to and interact with power grids.</string>
+
+    <!-- Hydro Efficiency -->
+    <string name="hydro_efficiency_title">Hydro Efficiency</string>
+    <string name="hydro_efficiency_description">Optimizing hydropower system performance and resource utilization.</string>
+    <string name="hydro_turbine_efficiency_title">Turbine Efficiency</string>
+    <string name="hydro_turbine_efficiency_description">Efficiency of water-to-electricity conversion in turbines.</string>
+    <string name="hydro_system_efficiency_title">System Efficiency</string>
+    <string name="hydro_system_efficiency_description">Overall efficiency of the hydropower system.</string>
+    <string name="hydro_water_management_title">Water Management</string>
+    <string name="hydro_water_management_description">Efficient water resource utilization and management.</string>
+    <string name="hydro_plant_efficiency_title">Plant Efficiency</string>
+    <string name="hydro_plant_efficiency_description">How efficiently plants convert water flow to electricity.</string>
+    <string name="hydro_water_flow_title">Water Flow</string>
+    <string name="hydro_water_flow_description">Impact of water flow on energy production.</string>
+    <string name="hydro_head_title">Head</string>
+    <string name="hydro_head_description">The vertical distance water falls affects power generation.</string>
+    <string name="hydro_maintenance_title">Maintenance</string>
+    <string name="hydro_maintenance_description">Regular maintenance for optimal performance.</string>
+
+    <!-- Hydro Impact -->
+    <string name="hydro_impact_title">Hydro Impact</string>
+    <string name="hydro_impact_description">Environmental and social impacts of hydropower development.</string>
+    <string name="hydro_environmental_impact_title">Environmental Impact</string>
+    <string name="hydro_environmental_impact_description">Effects on ecosystems and biodiversity.</string>
+    <string name="hydro_social_impact_title">Social Impact</string>
+    <string name="hydro_social_impact_description">Effects on local communities and populations.</string>
+    <string name="hydro_economic_impact_title">Economic Impact</string>
+    <string name="hydro_economic_impact_description">Economic benefits and costs of hydropower projects.</string>
+    <string name="hydro_future_impact_title">Future Impact</string>
+    <string name="hydro_future_impact_description">Projected long-term effects and benefits of hydropower development.</string>
+
+    <string name="solar_overview">Overview</string>
+    <string name="solar_technology">Technology</string>
+    <string name="solar_production">Production</string>
+    <string name="solar_efficiency">Efficiency</string>
+
+    <string name="wind_overview">Overview</string>
+    <string name="wind_technology">Technology</string>
+    <string name="wind_production">Production</string>
+    <string name="wind_efficiency">Efficiency</string>
+
+    <string name="hydro_overview">Overview</string>
+    <string name="hydro_technology">Technology</string>
+    <string name="hydro_production">Production</string>
+    <string name="hydro_efficiency">Efficiency</string>
+
+    <string name="geothermal_overview">Overview</string>
+    <string name="geothermal_technology">Technology</string>
+    <string name="geothermal_production">Production</string>
+    <string name="geothermal_efficiency">Efficiency</string>
+
+    <string name="biomass_overview">Overview</string>
+    <string name="biomass_technology">Technology</string>
+    <string name="biomass_production">Production</string>
+    <string name="biomass_efficiency">Efficiency</string>
+
+    <string name="wave_overview">Overview</string>
+    <string name="wave_technology">Technology</string>
+    <string name="wave_production">Production</string>
+    <string name="wave_efficiency">Efficiency</string>
+
+    <!-- Biomass Overview -->
+    <string name="biomass_overview_title">Biomass Energy Overview</string>
+    <string name="biomass_overview_description">Learn about the fundamentals of biomass energy and its role in sustainable power generation.</string>
+
+    <string name="biomass_fact1_title">What is Biomass?</string>
+    <string name="biomass_fact1_description">Biomass is organic material that comes from plants and animals, and it is a renewable source of energy. It contains stored energy from the sun that plants absorb through the process of photosynthesis.</string>
+
+    <string name="biomass_fact2_title">Types of Biomass</string>
+    <string name="biomass_fact2_description">Common types of biomass include wood and wood processing wastes, agricultural crops and waste materials, food, yard, and wood waste in garbage, and animal manure and human sewage.</string>
+
+    <string name="biomass_fact3_title">Energy Conversion</string>
+    <string name="biomass_fact3_description">Biomass can be converted to energy through various processes including direct combustion, gasification, pyrolysis, and anaerobic digestion, each with its own advantages and applications.</string>
+
+    <!-- Geothermal Overview -->
+    <string name="geothermal_overview_title">Geothermal Energy Overview</string>
+    <string name="geothermal_overview_description">Geothermal energy harnesses the Earth\'s internal heat for power generation and direct heating applications. It\'s a clean, renewable energy source that provides consistent, baseload power.</string>
+
+    <!-- Geothermal Key Facts -->
+    <string name="geothermal_fact1_title">Renewable &amp; Sustainable</string>
+    <string name="geothermal_fact1_description">Geothermal energy provides a reliable, baseload power source that can operate 24/7, with capacity factors of 90% or higher.</string>
+
+    <string name="geothermal_fact2_title">Low Emissions</string>
+    <string name="geothermal_fact2_description">Geothermal power plants emit minimal greenhouse gases compared to fossil fuel power plants.</string>
+
+    <string name="geothermal_fact3_title">Baseload Power</string>
+    <string name="geothermal_fact3_description">Unlike solar and wind, geothermal provides consistent baseload power 24/7, regardless of weather conditions.</string>
+
+    <!-- Hydro Overview -->
+    <string name="hydro_overview_title">Hydropower Overview</string>
+    <string name="hydro_overview_description">Hydropower is the largest source of renewable electricity globally, providing about 16% of the world\'s electricity. It\'s a clean, reliable, and flexible energy source that can help balance the grid.</string>
+
+    <!-- Hydro Key Facts -->
+    <string name="hydro_fact1_title">Renewable &amp; Reliable</string>
+    <string name="hydro_fact1_description">Hydropower is a renewable energy source that provides consistent, reliable electricity as long as water flows through the system.</string>
+
+    <string name="hydro_fact2_title">Clean Energy</string>
+    <string name="hydro_fact2_description">Hydropower plants produce no direct emissions, making them a clean source of electricity that helps reduce greenhouse gas emissions.</string>
+
+    <string name="hydro_fact3_title">Energy Storage</string>
+    <string name="hydro_fact3_description">Pumped storage hydropower can store energy for later use, helping to balance the grid and integrate other renewable energy sources.</string>
+
+    <!-- Solar Impact -->
+    <string name="solar_impact_title">Solar Energy Impact</string>
+    <string name="solar_impact_description">Understanding the broader effects of solar energy adoption on our environment, economy, and society.</string>
+
+    <string name="environmental_impact_title">Environmental Impact</string>
+    <string name="environmental_impact_description">Solar energy significantly reduces greenhouse gas emissions and helps combat climate change by providing clean, renewable electricity.</string>
+
+    <string name="economic_impact_title">Economic Impact</string>
+    <string name="economic_impact_description">The solar industry creates jobs, drives innovation, and provides long-term cost savings for consumers and businesses.</string>
+
+    <string name="social_impact_title">Social Impact</string>
+    <string name="social_impact_description">Solar energy improves energy access, creates local jobs, and empowers communities through distributed generation.</string>
+
+    <string name="future_impact_title">Future Impact</string>
+    <string name="future_impact_description">Continued solar adoption will play a crucial role in achieving global climate goals and creating a sustainable energy future.</string>
+
+    <!-- Solar Production -->
+    <string name="solar_production_title">Solar Energy Production</string>
+    <string name="solar_production_description">Understanding how solar energy is generated, stored, and integrated into the power grid.</string>
+
+    <string name="annual_production_title">Annual Production</string>
+    <string name="annual_production_description">Total solar energy production per year, measured in kilowatt-hours (kWh).</string>
+
+    <string name="peak_production_title">Peak Production</string>
+    <string name="peak_production_description">Maximum power output during optimal sunlight conditions.</string>
+
+    <string name="storage_title">Energy Storage</string>
+    <string name="storage_description">Methods and technologies for storing solar energy for later use.</string>
+
+    <string name="grid_integration_title">Grid Integration</string>
+    <string name="grid_integration_description">How solar power systems connect to and interact with the electrical grid.</string>
+
+    <!-- Solar Technology -->
+    <string name="solar_technology_title">Solar Technology</string>
+    <string name="solar_technology_description">Explore different types of solar energy technologies and their applications.</string>
+
+    <string name="photovoltaic_title">Photovoltaic Systems</string>
+    <string name="photovoltaic_description">Convert sunlight directly into electricity using semiconductor materials.</string>
+
+    <string name="concentrated_solar_title">Concentrated Solar Power</string>
+    <string name="concentrated_solar_description">Use mirrors or lenses to concentrate sunlight for power generation.</string>
+
+    <string name="solar_thermal_title">Solar Thermal</string>
+    <string name="solar_thermal_description">Harness solar energy for heating water and spaces.</string>
+
+    <string name="solar_hybrid_title">Hybrid Systems</string>
+    <string name="solar_hybrid_description">Combine multiple solar technologies for enhanced efficiency.</string>
+
+    <string name="wave_efficiency_title">Wave Energy Efficiency</string>
+    <string name="wave_efficiency_description">Understanding the factors that affect wave energy conversion efficiency and system performance.</string>
+
+    <string name="wave_converter_efficiency_title">Converter Efficiency</string>
+    <string name="wave_converter_efficiency_description">The ability of wave energy converters to transform wave motion into electrical power.</string>
+
+    <string name="wave_height_title">Wave Height Impact</string>
+    <string name="wave_height_description">How wave height affects energy capture and system performance.</string>
+
+    <string name="wave_placement_title">Device Placement</string>
+    <string name="wave_placement_description">Optimal positioning of wave energy devices for maximum efficiency.</string>
+
+    <string name="wave_maintenance_title">Maintenance</string>
+    <string name="wave_maintenance_description">Regular maintenance practices to ensure optimal wave energy system performance.</string>
+
+    <string name="wave_impact_title">Wave Energy Impact</string>
+    <string name="wave_impact_description">Understanding the broader effects of wave energy development on our environment, economy, and society.</string>
+
+    <string name="wave_environmental_impact_title">Environmental Impact</string>
+    <string name="wave_environmental_impact_description">Effects on marine ecosystems and coastal environments.</string>
+
+    <string name="wave_economic_impact_title">Economic Impact</string>
+    <string name="wave_economic_impact_description">Job creation and economic benefits in coastal communities.</string>
+
+    <string name="wave_social_impact_title">Social Impact</string>
+    <string name="wave_social_impact_description">Effects on coastal communities and recreational activities.</string>
+
+    <string name="wave_future_impact_title">Future Impact</string>
+    <string name="wave_future_impact_description">Projected long-term effects and benefits of wave energy development.</string>
+
+    <string name="wave_other_technologies_title">Other Wave Technologies</string>
+    <string name="wave_other_technologies_description">Emerging and innovative wave energy conversion technologies and concepts.</string>
+
+    <string name="wind_capacity_factor_title">Capacity Factor</string>
+    <string name="wind_capacity_factor_description">The ratio of actual energy output to maximum possible output over a period, typically 25-45% for wind turbines.</string>
+    <string name="wind_power_density_title">Power Density</string>
+    <string name="wind_power_density_description">The amount of power available per unit of swept area, measured in watts per square meter (W/m²).</string>
+
+    <string name="wind_production_title">Wind Energy Production</string>
+    <string name="wind_production_description">Understanding how wind energy is generated, measured, and integrated into the power grid.</string>
+
+    <string name="wind_annual_production_title">Annual Production</string>
+    <string name="wind_annual_production_description">Total wind energy production per year, measured in kilowatt-hours (kWh).</string>
+
+    <string name="wind_grid_integration_title">Grid Integration</string>
+    <string name="wind_grid_integration_description">How wind power systems connect to and interact with the electrical grid, including transmission and distribution considerations.</string>
+
+    <string name="wind_energy">Wind Energy</string>
+    <string name="wind_energy_image">Wind Energy Header Image</string>
+
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+
+    <!-- Wind Energy -->
+    <string name="wind_overview_title">Wind Energy Overview</string>
+    <string name="wind_overview_description">Wind energy is one of the fastest-growing renewable energy sources, harnessing the power of wind to generate electricity.</string>
+    <string name="wind_global_capacity_title">Global Capacity</string>
+    <string name="wind_global_capacity_description">Wind power capacity has grown significantly, reaching over 837 GW globally in 2021.</string>
+    <string name="wind_energy_cost_title">Energy Cost</string>
+    <string name="wind_energy_cost_description">The cost of wind energy has decreased by 70% since 2009, making it increasingly competitive.</string>
+    <string name="wind_growth_rate_title">Growth Rate</string>
+    <string name="wind_growth_rate_description">Wind energy capacity has grown at an average annual rate of 15% over the past decade.</string>
+    <string name="wind_market_share_title">Market Share</string>
+    <string name="wind_market_share_description">Wind power accounts for over 6% of global electricity generation.</string>
+
+    <string name="wind_technology_title">Wind Technology</string>
+    <string name="wind_technology_description">Explore different types of wind energy technologies and their applications.</string>
+    <string name="horizontal_axis_title">Horizontal Axis Wind Turbines</string>
+    <string name="horizontal_axis_description">The most common type of wind turbine, with blades rotating around a horizontal axis.</string>
+    <string name="vertical_axis_title">Vertical Axis Wind Turbines</string>
+    <string name="vertical_axis_description">Turbines with blades rotating around a vertical axis, suitable for urban environments.</string>
+    <string name="offshore_wind_title">Offshore Wind</string>
+    <string name="offshore_wind_description">Wind turbines installed in bodies of water, typically in coastal areas.</string>
+    <string name="wind_hybrid_title">Hybrid Systems</string>
+    <string name="wind_hybrid_description">Combined wind and solar systems for enhanced energy generation.</string>
+
+    <string name="wind_efficiency_title">Wind Efficiency</string>
+    <string name="wind_efficiency_description">Understanding factors that affect wind energy system efficiency.</string>
+    <string name="turbine_efficiency_title">Turbine Efficiency</string>
+    <string name="turbine_efficiency_description">How efficiently wind turbines convert wind energy into electricity.</string>
+    <string name="wind_speed_title">Wind Speed</string>
+    <string name="wind_speed_description">The impact of wind speed on energy production.</string>
+    <string name="turbine_placement_title">Turbine Placement</string>
+    <string name="turbine_placement_description">Optimal positioning of turbines for maximum efficiency.</string>
+    <string name="wind_maintenance_title">Maintenance</string>
+    <string name="wind_maintenance_description">Regular maintenance practices for optimal performance.</string>
+
+    <string name="wind_impact_title">Wind Impact</string>
+    <string name="wind_impact_description">Understanding the broader effects of wind energy development.</string>
+    <string name="wind_environmental_impact_title">Environmental Impact</string>
+    <string name="wind_environmental_impact_description">Effects on wildlife, ecosystems, and carbon emissions.</string>
+    <string name="wind_economic_impact_title">Economic Impact</string>
+    <string name="wind_economic_impact_description">Job creation and economic benefits from wind energy.</string>
+    <string name="wind_social_impact_title">Social Impact</string>
+    <string name="wind_social_impact_description">Effects on local communities and society.</string>
+    <string name="wind_future_impact_title">Future Impact</string>
+    <string name="wind_future_impact_description">Projected long-term effects and benefits.</string>
+
+    <!-- Wave Energy -->
+    <string name="wave_overview_title">Wave Energy Overview</string>
+    <string name="wave_overview_description">Wave energy harnesses the power of ocean waves to generate electricity.</string>
+    <string name="wave_fact1_title">Global Potential</string>
+    <string name="wave_fact1_description">Wave energy has the potential to meet 10% of global electricity demand.</string>
+    <string name="wave_fact2_title">Renewable Resource</string>
+    <string name="wave_fact2_description">Waves are a consistent and predictable renewable energy source.</string>
+    <string name="wave_fact3_title">Environmental Benefits</string>
+    <string name="wave_fact3_description">Wave energy produces no greenhouse gas emissions during operation.</string>
+
+    <string name="wave_production_title">Wave Energy Production</string>
+    <string name="wave_production_description">Understanding wave energy generation and output metrics.</string>
+    <string name="wave_annual_production_title">Annual Production</string>
+    <string name="wave_annual_production_description">Total wave energy production per year.</string>
+    <string name="wave_capacity_factor_title">Capacity Factor</string>
+    <string name="wave_capacity_factor_description">Actual energy output compared to maximum possible output.</string>
+    <string name="wave_power_density_title">Power Density</string>
+    <string name="wave_power_density_description">Energy output per unit area of wave energy device.</string>
+    <string name="wave_grid_integration_title">Grid Integration</string>
+    <string name="wave_grid_integration_description">How wave power systems connect to electrical grids.</string>
+
+    <string name="wave_technology_title">Wave Technology</string>
+    <string name="wave_technology_description">Explore different types of wave energy conversion technologies.</string>
+    <string name="wave_point_absorber_title">Point Absorbers</string>
+    <string name="wave_point_absorber_description">Devices that absorb wave energy from all directions.</string>
+    <string name="wave_attenuator_title">Attenuators</string>
+    <string name="wave_attenuator_description">Long, floating devices that capture energy from wave motion.</string>
+    <string name="wave_oscillating_title">Oscillating Water Columns</string>
+    <string name="wave_oscillating_description">Devices that use wave motion to compress air for power generation.</string>
+
+    <string name="know_more">Know More</string>
+
+    <string name="select_language">Select Language</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="spanish">Spanish</string>
+    <string name="french">French</string>
+    <string name="apply_language">Apply</string>
+    <string name="feedback_title">Feedback Form</string>
+    <string name="name_hint">Enter your name</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="rating_label">Rate your experience</string>
+    <string name="comments_hint">Enter your comments here</string>
+    <string name="submit_feedback">Submit Feedback</string>
+    <string name="name_required">Name is required</string>
+    <string name="email_required">Valid email is required</string>
+    <string name="comments_required">Please enter your feedback</string>
+    <string name="feedback_thanks">Thank you for your feedback!</string>
+    <string name="no_email_client">No email app found</string>
+    <string name="full_privacy_policy">
+    <![CDATA[
+        <h1 style=\"color: #2196F3;\">Privacy Policy for Renewable Energy App</h1>
+
+        <h2>1. Introduction</h2>
+        <p>Welcome to <strong>Renewable Energy App</strong> (\"we\", \"our\", \"us\"). We are committed to protecting your personal information and your right to privacy.</p>
+
+        <h2>2. Data We Collect</h2>
+        <h3>2.1 Personal Information</h3>
+        <ul>
+            <li>• Account Information: Name, email address, profile picture</li>
+            <li>• Contact Data: Phone number (optional)</li>
+        </ul>
+
+        <h3>2.2 Usage Data</h3>
+        <ul>
+            <li>• App interactions and preferences</li>
+            <li>• Energy consumption patterns</li>
+            <li>• Device information (model, OS version)</li>
+        </ul>
+
+        <h2>3. How We Use Your Data</h2>
+        <ul>
+            <li>• Provide and maintain service</li>
+            <li>• Improve energy recommendations</li>
+            <li>• Develop new features</li>
+            <li>• Communicate with users</li>
+        </ul>
+
+        <h2>4. Data Sharing</h2>
+        <p>We <strong>do not sell</strong> your personal data. We only share information with:</p>
+        <ul>
+            <li>• Service providers (analytics, hosting)</li>
+            <li>• Legal authorities when required</li>
+        </ul>
+
+        <h2>5. Data Security</h2>
+        <p>We implement security measures including:</p>
+        <ul>
+            <li>• Encryption of sensitive data</li>
+            <li>• Regular security audits</li>
+            <li>• Access controls</li>
+        </ul>
+
+        <h2>6. Your Rights</h2>
+        <ul>
+            <li>• Access your personal data</li>
+            <li>• Request data deletion</li>
+            <li>• Update inaccurate information</li>
+            <li>• Opt-out of data collection</li>
+        </ul>
+
+        <h2>7. Children\'s Privacy</h2>
+        <p>Our service does not address anyone under the age of 13.</p>
+
+        <h2>8. Policy Updates</h2>
+        <p>We may update this policy periodically. Last updated: <strong>September 2023</strong>.</p>
+
+        <h2>9. Contact Us</h2>
+        <p>For privacy-related inquiries:<br>
+        Email: <a href=\"mailto:privacy@renewableenergyapp.com\">privacy@renewableenergyapp.com</a></p>
+    ]]>
+</string>
+    <string name="default_web_client_id">1:81401204324:android:2158aa77d068be55bd5971</string>
+</resources>

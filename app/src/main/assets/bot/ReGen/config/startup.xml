@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+    <category>
+        <pattern>LOAD AIML B</pattern>
+        <template>
+            <learn>aiml/greetings.aiml</learn>
+            <learn>aiml/solar_energy.aiml</learn>
+            <learn>aiml/wind_energy.aiml</learn>
+            <learn>aiml/geothermal_energy.aiml</learn>
+            <learn>aiml/biomass_energy.aiml</learn>
+            <learn>aiml/wave_energy.aiml</learn>
+            <learn>aiml/hydropower.aiml</learn>
+            Renewable energy AIML loaded successfully! 🌞
+        </template>
+    </category>
+</aiml>

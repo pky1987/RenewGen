@@ -1,0 +1,10 @@
+<!-- res/drawable/ic_hydro_pumped_storage.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:fillColor="#000000"
+        android:pathData="M24,4C18.48,4 14,8.48 14,14s4.48,10 10,10s10,-4.48 10,-10S29.52,4 24,4z"/>
+</vector>

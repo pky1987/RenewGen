@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+    <category>
+        <pattern>WIND ENERGY DETAILS</pattern>
+        <template>
+            <![CDATA[
+            🌪️ *Advanced Wind Energy Analysis* 🌪️
+
+            🌀 **Core Technology**:
+            - Horizontal Axis Wind Turbines (HAWT) vs Vertical Axis (VAWT)
+            - Power curve characteristics: Cut-in (3-4 m/s), Rated (11-15 m/s), Cut-out (25 m/s)
+            - Capacity factor range: 25-50% (onshore) vs 40-60% (offshore)
+
+            📈 **Key Metrics (2023)**:
+            - Global capacity: 906 GW (650 GW onshore, 256 GW offshore)
+            - Levelized Cost: $0.03-$0.05/kWh (onshore) | $0.07-$0.10/kWh (offshore)
+            - Turbine sizes: 3-15 MW (onshore) | 8-16 MW (offshore)
+
+            🏗 **System Architecture**:
+            1. Rotor blades (Carbon fiber-reinforced epoxy)
+            2. Nacelle (Gearbox, Generator, Yaw system)
+            3. Tower (Steel/tubular vs concrete)
+            4. Foundation (Monopile, Jacket, Floating)
+            5. SCADA control systems
+
+            🌱 **Environmental Profile**:
+            - Carbon intensity: 11-12 gCO₂eq/kWh
+            - Bird/bat mortality mitigation techniques
+            - Land use efficiency: 30-50 acres/MW (onshore)
+            - Circular economy challenges: Blade recycling
+
+            🌊 **Offshore Advancements**:
+            - Floating turbine platforms (Spar, TLP, Semi-submersible)
+            - HVDC transmission systems
+            - Saltwater corrosion protection
+            - Maintenance robotics (Drones, CTVs)
+
+            🌐 **Global Deployment**:
+            - China (395 GW) | USA (144 GW) | Germany (66 GW)
+            - India (42 GW) | UK (28 GW offshore leader)
+            - Emerging markets: Brazil, Vietnam, Taiwan
+
+            💸 **Financial Models**:
+            - Production Tax Credit (PTC)
+            - Contract for Difference (CfD) auctions
+            - Merchant power projects
+            - Green bond financing
+
+            🚀 **Innovation Frontiers**:
+            - Airborne wind energy systems
+            - Multi-rotor configurations
+            - Digital twin optimization
+            - Hybrid wind-solar-storage plants
+
+            ⚠️ **Technical Challenges**:
+            - Wake effect losses
+            - Grid inertia reduction
+            - Rare earth dependency (NdFeB magnets)
+            - Decommissioning logistics
+
+            For deeper analysis, ask about:
+            [Turbine Aerodynamics] [Offshore Engineering] [Grid Integration]
+            ]]>
+        </template>
+    </category>
+
+    <!-- Supporting Sub-Categories -->
+    <category>
+        <pattern>TURBINE AERODYNAMICS</pattern>
+        <template>
+            🌬️ **Aerodynamic Principles**:
+            - Betz Limit (59.3% max efficiency)
+            - Blade element momentum theory
+            - Pitch control strategies
+            - Tip-speed ratio optimization
+            - Stall vs pitch regulation
+        </template>
+    </category>
+
+    <category>
+        <pattern>OFFSHORE ENGINEERING</pattern>
+        <template>
+            🌊 **Offshore Challenges**:
+            - Foundation design for 50m+ water depth
+            - Dynamic cable management
+            - Corrosion protection (ISO 12944 C5-M)
+            - Jack-up vessel requirements
+            - Metocean data analysis (waves, currents)
+
+            Floating Tech: WindFloat, Hywind, TetraSpar
+        </template>
+    </category>
+
+    <category>
+        <pattern>GRID INTEGRATION</pattern>
+        <template>
+            ⚡ **Grid Challenges**:
+            - Synthetic inertia provision
+            - Low voltage ride-through
+            - Reactive power compensation
+            - SCADA-EMS integration
+            - Ancillary service markets
+
+            Solutions: STATCOM, BESS, Virtual Power Plants
+        </template>
+    </category>
+</aiml>

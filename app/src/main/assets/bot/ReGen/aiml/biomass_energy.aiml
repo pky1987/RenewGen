@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+    <category>
+        <pattern>BIOMASS ENERGY DETAILS</pattern>
+        <template>
+            Biomass Energy Overview:
+            - Derived from organic materials
+            - Conversion methods: Combustion, Gasification, Pyrolysis
+            - Common sources: Wood, Agricultural waste
+            Global capacity: ~140 GW (2023)
+            Ask about: Conversion Technologies, Sustainability, Biofuels
+        </template>
+    </category>
+
+    <category>
+        <pattern>BIOMASS CONVERSION TECHNOLOGIES</pattern>
+        <template>
+            Conversion Methods:
+            1. Combustion - Direct burning for heat/power
+            2. Gasification - Produces syngas
+            3. Anaerobic Digestion - Generates biogas
+        </template>
+    </category>
+
+    <category>
+        <pattern>SUSTAINABLE BIOMASS PRACTICES</pattern>
+        <template>
+            Sustainable Practices:
+            - Use agricultural residues
+            - Certify sustainable sources
+            - Community involvement
+        </template>
+    </category>
+
+    <category>
+        <pattern>ADVANCED BIOFUELS</pattern>
+        <template>
+            Biofuel Types:
+            - Cellulosic Ethanol
+            - Algal Biofuels
+            - Biodiesel from waste oils
+        </template>
+    </category>
+
+</aiml>
