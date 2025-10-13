@@ -3,7 +3,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:background="@drawable/background_gradient"
+        android:background="@color/colorWhite"
         android:layout_height="match_parent"
         tools:context=".profile">
     <androidx.appcompat.widget.Toolbar
@@ -50,15 +50,15 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="16dp"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
                 android:id="@+id/selectImageButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Select Image"
-                android:backgroundTint="@color/colorPrimary"
                 android:layout_gravity="center_horizontal"
-            android:background="@drawable/rounded_button"
-                android:layout_marginBottom="16dp"/>
+                android:background="@drawable/rounded_button"
+                android:layout_marginBottom="16dp"
+               style="@style/Widget.RE.Button"/>
 
         <TextView
                 android:layout_width="wrap_content"
@@ -105,14 +105,14 @@
                 android:hint="Enter your phone number"
                 android:layout_marginBottom="16dp"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
                 android:id="@+id/saveProfileButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Save Profile"
-                android:backgroundTint="@color/colorPrimary"
                 android:background="@drawable/rounded_button"
-                android:layout_gravity="center_horizontal"/>
+                android:layout_gravity="center_horizontal"
+                style="@style/Widget.RE.Button"/>
 
     </LinearLayout>
 

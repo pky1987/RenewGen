@@ -102,12 +102,13 @@
                 android:background="@drawable/rounded_edittext"
                 android:padding="12dp" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/buttonPostComment"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Post Comment"
-                android:layout_marginTop="8dp" />
+                android:layout_marginTop="8dp"
+                style="@style/Widget.RE.Button"/>
         </LinearLayout>
 
     </LinearLayout>

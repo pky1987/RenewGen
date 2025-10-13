@@ -46,23 +46,25 @@
         android:orientation="horizontal"
         android:paddingHorizontal="16dp">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/yesButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Yes"
             android:layout_marginEnd="8dp"
-            android:backgroundTint="#4CAF50"/>
+            android:backgroundTint="#4CAF50"
+            style="@style/Widget.RE.Button"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/noButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="No"
             android:layout_marginStart="8dp"
-            android:backgroundTint="#F44336"/>
+            android:backgroundTint="#F44336"
+            style="@style/Widget.RE.Button"/>
     </LinearLayout>
 
     <FrameLayout

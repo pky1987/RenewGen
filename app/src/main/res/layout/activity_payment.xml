@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/background_gradient"
+    android:background="@color/colorWhite"
     android:padding="16dp"
     tools:context=".PaymentActivity">
     <androidx.appcompat.widget.Toolbar
@@ -69,15 +69,18 @@
             android:layout_height="55dp"
             android:hint="Enter Amount"
             android:inputType="numberDecimal"
-            android:layout_marginTop="16dp" />
+            android:layout_marginTop="16dp"
+            android:focusable="false"
+            android:clickable="false" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/upiPayButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Pay"
             android:layout_marginTop="16dp"
-            android:layout_gravity="center" />
+            android:layout_gravity="center"
+            style="@style/Widget.RE.Button"/>
     </LinearLayout>
 
     <!-- Card Payment section -->
@@ -115,15 +118,18 @@
             android:layout_height="wrap_content"
             android:hint="Enter Amount"
             android:inputType="numberDecimal"
-            android:layout_marginTop="16dp" />
+            android:layout_marginTop="16dp"
+            android:focusable="false"
+            android:clickable="false" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/cardPayButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Pay"
             android:layout_marginTop="16dp"
-            android:layout_gravity="center" />
+            android:layout_gravity="center"
+            style="@style/Widget.RE.Button"/>
     </LinearLayout>
 
     <!-- QR Code section -->

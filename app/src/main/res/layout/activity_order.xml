@@ -61,10 +61,10 @@
         android:background="@drawable/rounded_edittext"/>
 
     <EditText
-        android:id="@+id/size"
+        android:id="@+id/height"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Size (in sq. ft.)"
+        android:hint="Height (in sq. ft.)"
         android:inputType="numberDecimal"
         android:padding="10dp"
         android:background="@drawable/rounded_edittext"/>
@@ -85,15 +85,16 @@
         android:padding="10dp"
         android:background="@drawable/rounded_edittext"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/submitButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Submit Order"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/ic_button"
         android:textColor="#FFFFFF"
         android:padding="10dp"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp"
+        style="@style/Widget.RE.Button"/>
 
     <TextView
         android:id="@+id/orderSummary"

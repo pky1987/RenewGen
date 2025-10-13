@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_gradient"
+    android:background="@color/colorWhite"
     tools:context=".HomeFragment">
 
     <androidx.appcompat.widget.Toolbar
@@ -91,7 +91,7 @@
                     android:background="@drawable/drawer"
                     android:focusableInTouchMode="true"
                     android:singleLine="true"
-                    android:text="+PREMIUM FINDS    +RENEWABLE ENERGY     +100% GENUINE BRANDS     +ENERGY INNOVATION     +LATEST LAUNCHES"
+                    android:text="+RENEWGEN   +PREMIUM FINDS    +RENEWABLE ENERGY     +100% GENUINE BRANDS     +ENERGY INNOVATION     +LATEST LAUNCHES"
                     android:textColor="#FFFFFF"
                     android:textSize="20sp"/>
             </LinearLayout>
@@ -324,9 +324,9 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="start"
-            android:background="@drawable/background_gradient"
+            android:background="@color/colorWhite"
             app:headerLayout="@layout/drawer_img"
-            app:itemBackground="@drawable/rect_button"
+            app:itemBackground="@drawable/drawer"
             app:itemIconTint="@color/colorWhite"
             app:itemTextColor="@color/colorWhite"
             app:menu="@menu/drawer_menu"/>

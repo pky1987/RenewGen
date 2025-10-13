@@ -14,11 +14,6 @@ import com.google.firebase.auth.FirebaseAuth
 
 class FirebaseUIActivity : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
-    private lateinit var otherOptionsButton: Button
-    private lateinit var otherOptionsContainer: LinearLayout
-    private lateinit var metaIcon: ImageView
-    private lateinit var twitterIcon: ImageView
-    private lateinit var googleIcon: ImageView
 
     companion object {
         private const val RC_SIGN_IN = 123
@@ -29,31 +24,6 @@ class FirebaseUIActivity : AppCompatActivity() {
         setContentView(R.layout.activity_firebase_uiactivity)
         auth = FirebaseAuth.getInstance()
 
-        otherOptionsButton = findViewById(R.id.other_options_button)
-        otherOptionsContainer = findViewById(R.id.other_options_container)
-        metaIcon = findViewById(R.id.meta_icon)
-        twitterIcon = findViewById(R.id.twitter_icon)
-        googleIcon = findViewById(R.id.google_icon)
-
-        otherOptionsButton.setOnClickListener {
-            otherOptionsContainer.visibility = if (otherOptionsContainer.visibility == View.VISIBLE) View.GONE else View.VISIBLE
-        }
-
-        metaIcon.setOnClickListener {
-            signInWithProvider(AuthUI.IdpConfig.FacebookBuilder().build())
-        }
-
-        twitterIcon.setOnClickListener {
-            signInWithProvider(AuthUI.IdpConfig.TwitterBuilder().build())
-        }
-
-        googleIcon.setOnClickListener {
-            signInWithProvider(
-                AuthUI.IdpConfig.GoogleBuilder()
-                    .setScopes(listOf("email"))
-                    .build()
-            )
-        }
 
         findViewById<Button>(R.id.login_button).setOnClickListener {
             performLogin()

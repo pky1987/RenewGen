@@ -175,7 +175,7 @@
                     android:layout_marginTop="12dp"
                     android:orientation="horizontal">
 
-                    <Button
+                    <com.google.android.material.button.MaterialButton
                         android:id="@+id/emailButton"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -183,9 +183,9 @@
                         android:text="Email"
                         style="@style/Widget.Material3.Button.OutlinedButton"
                         android:drawableStart="@drawable/ic_gmail"
-                        android:drawablePadding="8dp"/>
+                        android:drawablePadding="8dp" />
 
-                    <Button
+                    <com.google.android.material.button.MaterialButton
                         android:id="@+id/callButton"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"

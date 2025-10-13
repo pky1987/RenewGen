@@ -119,7 +119,9 @@ class HomeFragment : Fragment(), NavigationView.OnNavigationItemSelectedListener
     private fun setupRecyclerViews(view: View) {
         val horizontalRecyclerView1 = view.findViewById<RecyclerView>(R.id.recycler_view_horizontal_1)
         horizontalRecyclerView1.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
-        horizontalRecyclerView1.adapter = Horizontal1Adapter(products)
+        horizontalRecyclerView1.adapter = Horizontal1Adapter(products) { selectedIndex ->
+            onProductSelected(selectedIndex)
+        }
         LinearSnapHelper().attachToRecyclerView(horizontalRecyclerView1)
         setupRecyclerViewIndicators(horizontalRecyclerView1, view)
     }
@@ -250,7 +252,6 @@ class HomeFragment : Fragment(), NavigationView.OnNavigationItemSelectedListener
         when (menuItem.itemId) {
             R.id.home -> drawerLayout.closeDrawer(GravityCompat.START)
             R.id.profile -> startActivity(Intent(requireContext(), user_profile_show::class.java))
-            R.id.payment -> startActivity(Intent(requireContext(), PaymentActivity::class.java))
             R.id.about_us -> startActivity(Intent(requireContext(), AboutUsActivity::class.java))
             R.id.ai -> startActivity(Intent(requireContext(), gen_ai::class.java))
             R.id.th -> startActivity(Intent(requireContext(), FeedbackActivity::class.java))
@@ -259,6 +260,21 @@ class HomeFragment : Fragment(), NavigationView.OnNavigationItemSelectedListener
         }
         return true
     }
+
+    private fun onProductSelected(currentIndex: Int) {
+        val product = products[currentIndex]
+        val orderDetails = "Selected Product: ${product.name}"
+        val intent = Intent(requireContext(), Order::class.java).apply {
+            putExtra("PRODUCT_NAME", product.name)
+            putExtra("PRODUCT_PRICE", product.price.replace("₹", "").toDouble())
+            putExtra("PRODUCT_IMAGE", product.imageRes)
+            putExtra("ORDER_DETAILS", orderDetails)
+        }
+        startActivity(intent)
+    }
+
+
+
 
     private fun Int.dpToPx(): Int = (this * resources.displayMetrics.density).toInt()
 

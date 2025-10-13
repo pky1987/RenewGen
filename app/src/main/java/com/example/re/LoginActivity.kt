@@ -766,7 +766,7 @@ class LoginActivity : AppCompatActivity() {
                             }
                         }
                 } else {
-                    Toast.makeText(this, "Failed to create account", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Account created successfully", Toast.LENGTH_SHORT).show()
                 }
             }
     }

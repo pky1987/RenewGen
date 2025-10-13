@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/background_gradient"
+    android:background="@color/colorWhite"
     android:padding="16dp"
     tools:context=".LoginActivity">
     <androidx.appcompat.widget.Toolbar
@@ -132,20 +132,15 @@
         android:layout_marginTop="16dp" />
 
     <!-- Register Account Button -->
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/register_account_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:src="@drawable/rounded_button"
         android:textColor="@color/colorWhite"
-        android:text="Register Account" />
+        android:text="Register Account"
+        style="@style/Widget.RE.Button"/>
 
-    <!-- Loading Indicator -->
-    <ProgressBar
-        android:id="@+id/loading_indicator"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:visibility="gone" />
 </LinearLayout>
+

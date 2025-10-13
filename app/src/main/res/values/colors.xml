@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Primary colors -->
-    <color name="colorPrimary">#7DFCE8</color> <!-- Purple -->
-    <color name="colorPrimaryDark">#7DFCE8</color> <!-- Dark Purple -->
-    <color name="colorAccent">#03DAC5</color> <!-- Teal -->
+    <color name="colorPrimary">#9333EA</color> <!-- Purple -->
+    <color name="colorPrimaryDark">#9333EA</color> <!-- Dark Purple -->
+    <color name="colorAccent">#9333EA</color> <!-- Teal -->
     <color name="primary_light">#BBDEFB</color> <!-- Light Blue -->
     <color name="colorPrakash">#333333</color>
     <color name="light_gold">#FFD700</color>

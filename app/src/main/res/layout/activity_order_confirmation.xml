@@ -43,18 +43,20 @@
         android:textSize="16sp"
         android:textStyle="bold"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/trackOrderButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Track Your Order"
-        android:layout_marginTop="24dp"/>
+        android:layout_marginTop="24dp"
+        style="@style/Widget.RE.Button"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/continueShoppingButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Continue Shopping"
         android:layout_marginTop="8dp"
-        android:backgroundTint="@color/colorAccent"/>
+        android:backgroundTint="@color/colorAccent"
+        style="@style/Widget.RE.Button"/>
 </LinearLayout>

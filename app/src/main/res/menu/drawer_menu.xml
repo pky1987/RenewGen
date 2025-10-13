@@ -14,12 +14,6 @@
         app:iconTint="@color/colorWhite"
         app:titleTextColor="@color/colorWhite"/>
     <item
-        android:id="@+id/payment"
-        android:icon="@drawable/payment"
-        android:title="Payment"
-        app:iconTint="@color/colorWhite"
-        app:titleTextColor="@color/colorWhite"/>
-    <item
         android:id="@+id/setting"
         android:icon="@drawable/setting"
         android:title="Settings"

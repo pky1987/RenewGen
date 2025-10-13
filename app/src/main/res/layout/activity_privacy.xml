@@ -224,7 +224,7 @@
                     android:textSize="16sp"
                     android:text="I have read and agree to the Privacy Policy"/>
 
-                <Button
+                <com.google.android.material.button.MaterialButton
                     android:id="@+id/acceptButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -233,7 +233,7 @@
                     android:enabled="false"
                     style="@style/Widget.Material3.Button"/>
 
-                <Button
+                <com.google.android.material.button.MaterialButton
                     android:id="@+id/fullPolicyButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
