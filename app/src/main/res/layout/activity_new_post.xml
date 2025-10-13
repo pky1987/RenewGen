@@ -49,12 +49,13 @@
         android:background="@drawable/rounded_edittext"
         android:padding="12dp"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/buttonSubmit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/rounded_button"
         android:text="Submit"
-        android:textColor="@android:color/white"/>
+        android:textColor="@android:color/white"
+        style="@style/Widget.RE.Button"/>
 
 </LinearLayout>

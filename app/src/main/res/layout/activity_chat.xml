@@ -87,7 +87,8 @@
                     app:iconGravity="textStart"
                     app:layout_constraintBottom_toBottomOf="@id/messageInputLayout"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="@id/messageInputLayout" />
+                    app:layout_constraintTop_toTopOf="@id/messageInputLayout"
+                    style="@style/Widget.RE.Button"/>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

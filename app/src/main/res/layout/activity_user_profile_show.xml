@@ -57,10 +57,11 @@
         android:textSize="16sp"
         android:layout_marginTop="8dp" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/editButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Edit Profile"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="16dp"
+        style="@style/Widget.RE.Button"/>
 </LinearLayout>
