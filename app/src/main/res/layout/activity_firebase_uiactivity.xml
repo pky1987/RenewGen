@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/colorWhite"
+    android:background="@drawable/background_gradient"
     android:padding="16dp"
     tools:context=".FirebaseUIActivity">
 
@@ -16,13 +16,13 @@
 
         <TextView
             android:id="@+id/action_ps"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="180dp"
+            android:layout_height="52dp"
             android:text="Login"
             android:textSize="25sp"
             android:textColor="@color/colorWhite"
             android:textStyle="bold"
-            android:layout_gravity="start|center_vertical" />
+            android:layout_gravity="start|center"/>
     </androidx.appcompat.widget.Toolbar>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -52,22 +52,72 @@
             android:inputType="textPassword"/>
     </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/login_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
         android:background="@drawable/rounded_button"
         android:textColor="@color/colorWhite"
-        android:layout_marginTop="90dp" />
+        android:layout_marginTop="90dp"/>
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/create_account_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Create Account"
         android:background="@drawable/rounded_button"
-        android:textColor="@color/colorWhite"
-        android:layout_marginTop="16dp" />
+        android:textColor="@color/colorWhite"/>
 
+    <Button
+        android:id="@+id/other_options_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Other Options"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/colorWhite"/>
+
+    <LinearLayout
+        android:id="@+id/other_options_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/meta_icon"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:src="@drawable/meta"
+                android:scaleType="centerInside"
+                android:contentDescription="Meta Icon"/>
+
+            <ImageView
+                android:id="@+id/twitter_icon"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:src="@drawable/x"
+                android:scaleType="centerInside"
+                android:contentDescription="Twitter Icon"/>
+
+            <ImageView
+                android:id="@+id/google_icon"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:src="@drawable/google"
+                android:scaleType="centerInside"
+                android:contentDescription="Google Icon"/>
+        </LinearLayout>
+    </LinearLayout>
 </LinearLayout>
