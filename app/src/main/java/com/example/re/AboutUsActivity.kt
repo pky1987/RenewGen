@@ -14,7 +14,7 @@ class AboutUsActivity : AppCompatActivity() {
     private lateinit var textView: TextView
     private lateinit var recyclerView: RecyclerView
     private lateinit var adapter: AboutUsAdapter
-    private val texts = listOf("Satyam Singh", "Dheeraj Yadav", "Mr. Omkar Madyal")
+    private val texts = listOf("Sachin Tiwari", "Prakash Yadav")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
